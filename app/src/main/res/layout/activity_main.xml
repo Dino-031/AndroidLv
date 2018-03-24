@@ -10,81 +10,93 @@
             android:id="@+id/imgView_turing"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@mipmap/img_turing"/>
+            android:src="@mipmap/img_turing"
+            android:paddingTop="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="@string/String_alan_turing"
-            android:layout_toRightOf="@id/imgView_turing"/>
+            android:layout_toRightOf="@id/imgView_turing"
+            android:paddingTop="10dp"/>
 
         <ImageView
             android:id="@+id/imgView_lovelace"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/ada_lovelace"
-            android:layout_below="@id/imgView_turing"/>
+            android:layout_below="@id/imgView_turing"
+            android:paddingTop="10dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="@string/String_ada_lovelace"
             android:layout_below="@id/imgView_turing"
-            android:layout_toRightOf="@id/imgView_lovelace"/>
+            android:layout_toRightOf="@id/imgView_lovelace"
+            android:paddingTop="10dp"/>
 
         <ImageView
             android:id="@+id/imgView_neumann"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/john_von_neumann"
-            android:layout_below="@id/imgView_lovelace" />
+            android:layout_below="@id/imgView_lovelace"
+            android:paddingTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="@string/String_von_neumann"
             android:layout_toRightOf="@id/imgView_neumann"
-            android:layout_below="@id/imgView_lovelace"/>
+            android:layout_below="@id/imgView_lovelace"
+            android:paddingTop="10dp"/>
 
         <ImageView
             android:id="@+id/imgView_wirth"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/niklaus_wirth"
-            android:layout_below="@id/imgView_neumann" />
+            android:layout_below="@id/imgView_neumann"
+            android:paddingTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="@string/String_wirth"
             android:layout_toRightOf="@id/imgView_neumann"
-            android:layout_below="@id/imgView_neumann"/>
+            android:layout_below="@id/imgView_neumann"
+            android:paddingTop="10dp"/>
 
         <ImageView
             android:id="@+id/imgView_ritchie"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/dennis_ritchie"
-            android:layout_below="@id/imgView_wirth" />
+            android:layout_below="@id/imgView_wirth"
+            android:paddingTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="@string/String_ritchie"
             android:layout_toRightOf="@id/imgView_neumann"
-            android:layout_below="@id/imgView_wirth"/>
+            android:layout_below="@id/imgView_wirth"
+            android:paddingTop="10dp"/>
 
         <ImageView
             android:id="@+id/imgView_stroustrup"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@mipmap/bjarne_stroustrup"
-            android:layout_below="@id/imgView_ritchie" />
+            android:layout_below="@id/imgView_ritchie"
+            android:paddingTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:text="@string/String_stroustrup"
             android:layout_toRightOf="@id/imgView_stroustrup"
-            android:layout_below="@id/imgView_ritchie"/>
+            android:layout_below="@id/imgView_ritchie"
+            android:paddingTop="10dp"/>
 
     </RelativeLayout>
 
