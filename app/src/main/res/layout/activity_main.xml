@@ -1,44 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/imgView_turing"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/img_turing"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:text="@string/String_alan_turing"
-        android:layout_toRightOf="@id/imgView_turing"/>
+        <ImageView
+            android:id="@+id/imgView_turing"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/img_turing"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/String_alan_turing"
+            android:layout_toRightOf="@id/imgView_turing"/>
 
-    <ImageView
-        android:id="@+id/imgView_lovelace"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/ada_lovelace"
-        android:layout_below="@id/imgView_turing"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:text="@string/String_ada_lovelace"
-        android:layout_below="@id/imgView_turing"
-        android:layout_toRightOf="@id/imgView_lovelace"/>
+        <ImageView
+            android:id="@+id/imgView_lovelace"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ada_lovelace"
+            android:layout_below="@id/imgView_turing"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/String_ada_lovelace"
+            android:layout_below="@id/imgView_turing"
+            android:layout_toRightOf="@id/imgView_lovelace"/>
 
-    <ImageView
-        android:id="@+id/imgView_neumann"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@mipmap/john_von_neumann"
-        android:layout_below="@id/imgView_lovelace" />
+        <ImageView
+            android:id="@+id/imgView_neumann"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/john_von_neumann"
+            android:layout_below="@id/imgView_lovelace" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:text="@string/String_von_neumann"
-        android:layout_toRightOf="@id/imgView_neumann"
-        android:layout_below="@id/imgView_lovelace"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/String_von_neumann"
+            android:layout_toRightOf="@id/imgView_neumann"
+            android:layout_below="@id/imgView_lovelace"/>
 
-</RelativeLayout>
+        <ImageView
+            android:id="@+id/imgView_wirth"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/niklaus_wirth"
+            android:layout_below="@id/imgView_neumann" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/String_wirth"
+            android:layout_toRightOf="@id/imgView_neumann"
+            android:layout_below="@id/imgView_neumann"/>
+
+        <ImageView
+            android:id="@+id/imgView_ritchie"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/dennis_ritchie"
+            android:layout_below="@id/imgView_wirth" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/String_ritchie"
+            android:layout_toRightOf="@id/imgView_neumann"
+            android:layout_below="@id/imgView_wirth"/>
+
+        <ImageView
+            android:id="@+id/imgView_stroustrup"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/bjarne_stroustrup"
+            android:layout_below="@id/imgView_ritchie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/String_stroustrup"
+            android:layout_toRightOf="@id/imgView_stroustrup"
+            android:layout_below="@id/imgView_ritchie"/>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
