@@ -1,36 +1,24 @@
 
 # Homework project
 
-In this project we should create android application with 3(or more) pictures and short biographies of interesting people in computer science. When user taps on certain image toast message should appear and show some interesting quote.
+In this project we should create android application with 3(or more) pictures and short biographies of interesting people in computer science.
+When user taps on certain image toast message should appear and show some interesting quote.
 
 ### The assignment and problems encountered
 
-In this assignment problems appeared when we try to add more pictures and biographies than it can fit on screen. Solution to this problem is using scrollview.
-
+In this assignment problems appeared when we try to add more pictures and biographies than it can fit on screen.
+Solution to this problem is using scrollview.
 
 
 ### Screenshots
 
-Attach at least 3 screenshots of your application while running presenting
-different aspects.
+![Landscape of mainactivity when image is tapped](http://prntscr.com/ix701r)
+![Portrait of mainactivity when image is tapped](http://prntscr.com/ix7aa8)
 
-![Portrait view of MainActivity when button is clicked](https://developers.google.com/maps/images/lhimages/devices/3x1_dashby_modified.png)
-
-http://prntscr.com/ix60vi
-
-### Didn't complete and reasons
-
-List 
-1. all 
-2. of 
-3. the
-
-thing you failed to implement and explain why.
-
-1. [x] Created main activity
-2. [ ] Added fancy button 
-
-I don't understand buttons.
 
 ### Comment (optional)
-The homework was too hard. Buttons and stuff... :smile:
+The homework wasn't hard, biggest problem is to get app working on emulator(on amd processor).
+Before adding: 
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+to manifest.xml app was crashing.
